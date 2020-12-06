@@ -3,15 +3,23 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "devStart": "nodemon server.js"
-  },
-  "author": "",
-  "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
     "mongoose": "^5.11.4"
   },
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SpideyFanDan/christmas-tv-movies-2020-api.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SpideyFanDan/christmas-tv-movies-2020-api/issues"
+  },
+  "homepage": "https://github.com/SpideyFanDan/christmas-tv-movies-2020-api#readme",
   "devDependencies": {
     "dotenv": "^8.2.0",
     "nodemon": "^2.0.6"

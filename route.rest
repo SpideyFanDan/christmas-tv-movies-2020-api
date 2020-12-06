@@ -5,7 +5,7 @@ GET http://localhost:3000/movies/5fcc642060496b5da2acfbea
 
 ###
 
-DELETE http://localhost:3000/movies/5fcc736a7b090862b49af68b
+DELETE http://localhost:3000/movies/5fcc70f77b090862b49af68a
 
 ###
 
@@ -17,3 +17,10 @@ Content-Type: application/json
 
 POST http://localhost:3000/movies
 Content-Type: application/json
+
+{
+        "title": "Deliver by Christmas",
+        "debut": "10/25/2020 10:00:00 PM",
+        "station": "HallMov",
+        "image": "https://m.media-amazon.com/images/M/MV5BODk4OWM4ZjQtOWQ0Zi00OThkLTlkOWUtY2M5MmViMGZjOGVhXkEyXkFqcGdeQXVyNTQ2NjI3NDQ@._V1_.jpg"
+    }

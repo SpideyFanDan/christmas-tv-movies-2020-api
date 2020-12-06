@@ -16,5 +16,5 @@ app.use(express.json());
 
 const moviesRouter = require('./routes/movies');
 app.use('/movies', moviesRouter);
-
-app.listen(3000, () => console.log('Server started'));
+const port = process.env.PORT || 3000;
+app.listen(port);

@@ -5,27 +5,15 @@ GET http://localhost:3000/movies/5fcc642060496b5da2acfbea
 
 ###
 
-DELETE http://localhost:3000/movies/5fcc631460496b5da2acfbe9
+DELETE http://localhost:3000/movies/5fcc736a7b090862b49af68b
 
 ###
 
 PATCH http://localhost:3000/movies/5fcc642060496b5da2acfbea
 Content-Type: application/json
 
-{
-        "title": "Christmas On Ice",
-        "debut": "10/23/2020 8:00:00 PM",
-        "station": "Lifetime"
-    }
 
 ###
 
 POST http://localhost:3000/movies
 Content-Type: application/json
-
-{
-        "title": "Jingle Bell Bride",
-        "debut": "10/24/2020 8:00:00 PM",
-        "station": "Hallmark",
-        "image": "https://m.media-amazon.com/images/M/MV5BZjNlNzY1YmEtZGI2OC00YzQ3LWJkYmMtNDliNzk2NjM4M2EwXkEyXkFqcGdeQXVyNDk3ODk4OQ@@._V1_.jpg"
-    }
